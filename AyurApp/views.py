@@ -34,7 +34,6 @@ SQLITE_DB_PATH = os.path.join(BASE_DIR, "L2_minilm_sentences.db")
 print(f"Using SQLite database at: {SQLITE_DB_PATH}")
 
 # GROQ_API_KEY = os.getenv("GROQ_API_KEY")  # 🔹 Replace with your actual API key
-# GROQ_API_KEY="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"
 GROQ_API_KEY="Your_API_Key"
 
 # ✅ Initialize Groq client
