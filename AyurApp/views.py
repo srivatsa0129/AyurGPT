@@ -156,16 +156,7 @@ def generate_response(question, context_sentences):
     try:
         context_text = "\n".join(context_sentences)
         prompt = (
-            "You are an expert Ayurvedic doctor. Answer the question using the provided context.\n\n"
-            "Guidelines:\n"
-            "- Extract as much relevant information as possible from the context.\n"
-            "- Only if you absolutely cannot find ANY relevant information, respond with 'I don't have enough information about this topic.'\n"
-            "- Otherwise, do your best to answer with the available information.\n"
-            "- Replace common medical terms with Ayurvedic terminology if appropriate.\n"
-            "- Ensure the response aligns with Ayurveda's holistic approach.\n"
-            "- If enough information is available, organize your answer into: Overview, Home Remedies, Dietary Recommendations, and Scientific Studies.\n"
-            "- Be thorough and detailed in your response.\n\n"
-            f"Context:\n{context_text}\n\nQuestion: {question}\nAnswer:"
+            //Enter the prompt as per your requirement
         )
 
         print(f"Sending prompt of length {len(prompt)} to Groq")
