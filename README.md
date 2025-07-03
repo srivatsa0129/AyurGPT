@@ -17,7 +17,7 @@ AyurGPT, a specialized Retrieval-Augmented Generation (RAG) system designed to p
 ### Installation
 1. Clone the repository
    ```
-   git clone https://github.com/srivatsa0129/Ayur-FinalYearProject.git
+   git clone https://github.com/srivatsa0129/AyurGPT
    cd Ayur-FinalYearProject
    ```
 
